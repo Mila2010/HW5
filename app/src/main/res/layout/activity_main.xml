@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layouid1"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:text="TIC-TACK-TOE"
+            android:textColor="#dc30f2"
+            android:layout_marginLeft="100dp"
+            android:textSize="26dp"
+            android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layouid2"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/layouid"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+    <ImageButton android:id="@+id/st_bt"
+    android:src="@drawable/strawberry"
+    android:layout_width="81dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="200dp"/>
+
+        <ImageButton android:id="@+id/bn_bt"
+            android:src="@drawable/Banana"
+            android:layout_width="81dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_below="@id/layouid"
+            android:orientation="horizontal">
+
+
+            <ImageButton android:id="@+id/gr_bt"
+                android:src="@drawable/strawberry"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"/>
+
+            <ImageButton android:id="@+id/pc_bt"
+                android:src="@drawable/Banana"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layouid3"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nyc.c4q.yourname.homework5.DisplayMessageActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:orientation="horizontal">
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </GridView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/forth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/fifth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/sixth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+    </LinearLayout>
+
+
+</LinearLayout>
